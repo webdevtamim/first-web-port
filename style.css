@@ -22,7 +22,7 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 nav .nav-head{
     font-size: 45px;
@@ -42,10 +42,16 @@ nav a{
     font-size: 20px;
     font-weight: 400;
 }
+.header nav{
+    max-width: 1140px;
+}
 
 /* header style */
 .header{
     background: #FFF8F3;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     display: flex;
@@ -54,6 +60,10 @@ nav a{
 .banner .banner-pic img{
     width: 584px;
     height: 676px;
+}
+.banner .banner-pic{
+    display: flex;
+    align-items: end;
 }
 .banner .banner-descrip{
     display: flex;
