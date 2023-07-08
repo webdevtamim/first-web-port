@@ -74,9 +74,9 @@ nav a{
     background: #FFF8F3;
 }
 .header .overflow{
-    background-image: url('images/header_bg.png');
+    background-image: url('images/header_bg.png'), url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 /*banner*/
@@ -88,7 +88,7 @@ nav a{
 .banner .banner-assertive{
     display: flex;
     align-items: center;
-    padding: 0 200px 0 205px;
+    padding: 0 0 0 200px;
 }
 .banner .banner-assertive .banner-gritting{
     color: #474747;
@@ -102,6 +102,7 @@ nav a{
 }
 .banner .banner-assertive .banner-des{
     margin-bottom: 30px;
+    padding-right: 200px;
 }
 /*.banner .banner-assertive > div {
     width: 585px;
@@ -232,4 +233,43 @@ nav a{
 .resume-btn{
     margin-top: 50px;
     text-align: center;
+}
+
+/*footer*/
+footer{
+    background: #FFF8F3;
+    padding: 130px 0;
+    margin-top: 110px;
+}
+footer .footer-row{
+    display: flex;
+    margin: auto;
+    width: 1140px;
+    margin: auto;
+}
+.footer-col-a{
+    margin-right: 58px;
+    width: 50%;
+}
+.footer-col-b{
+    margin-left: 58px;
+}
+footer p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 18px 30px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
 }
