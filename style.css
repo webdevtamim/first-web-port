@@ -47,3 +47,15 @@ nav a{
 .header{
     background: #FFF8F3;
 }
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+.banner .banner-pic img{
+    width: 584px;
+    height: 676px;
+}
+.banner .banner-descrip{
+    display: flex;
+    align-items: center;
+}
