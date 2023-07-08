@@ -82,13 +82,13 @@ nav a{
 /*banner*/
 .banner{
     display: flex;
-    max-width: 1140px;
+    max-width: 1550px;
     margin: auto;
 }
 .banner .banner-assertive{
     display: flex;
     align-items: center;
-    padding-right: 200px;
+    padding: 0 200px 0 205px;
 }
 .banner .banner-assertive .banner-gritting{
     color: #474747;
@@ -114,7 +114,7 @@ nav a{
 .banner .banner-pic img{
     width: 584px;
     height: 676px;
-    margin-right: -200px;
+
 }
 
 
@@ -227,4 +227,9 @@ nav a{
 }
 .resume-border{
     border-top: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
 }
