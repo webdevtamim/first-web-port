@@ -150,3 +150,40 @@ nav a{
     margin: 0;
     font-weight: bold;
 }
+
+/*What I do*/
+.what-i-do-des .dft-heading{
+    margin: 30px 0;
+}
+.what-i-do-des .dft-para{
+    margin: 0;
+    width: 910px;
+    margin: auto;
+}
+/*what i do info*/
+.skill-info-description{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1160px;
+    margin: auto;
+    padding-top: 50px;
+}
+.skill-info{
+    margin: 0 12px;
+    padding: 30px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.skill-info-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 20px;
+}
+.skill-info-des{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+}
