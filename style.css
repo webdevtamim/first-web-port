@@ -137,3 +137,16 @@ nav a{
 .abt-des .dft-para{
     margin: 30px 0;
 }
+/*about-info*/
+.about-info-description{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-info-title{
+    margin: 0;
+}
+.about-info-des{
+    margin: 0;
+    font-weight: bold;
+}
