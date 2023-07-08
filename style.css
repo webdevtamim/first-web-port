@@ -187,3 +187,44 @@ nav a{
     line-height: 28px;
     margin: 0;
 }
+/*Resume*/
+.resume > .dft-heading{
+    margin: 130px 0 110px;
+}
+.resume-row{
+    display: flex;
+    width: 1140px;
+    margin: auto;
+}
+.resume-col-a{
+    margin-right: 35px;
+}
+.resume-col-b{
+    margin-left: 35px;
+}
+.resume-heading{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-other{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.resume-des{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.resume-border{
+    border-top: 1px solid #D1D1D1;
+}
