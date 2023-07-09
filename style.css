@@ -112,12 +112,18 @@ nav a{
     display: flex;
     align-items: end;
 }
+/*
 .banner .banner-pic img{
     width: 584px;
     height: 676px;
 
 }
+*/
+.banner .banner-pic img{
+    width: 500px;
+    height: 700px;
 
+}
 
 
 /* main section */
