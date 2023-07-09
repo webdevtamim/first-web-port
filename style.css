@@ -279,3 +279,16 @@ textarea{
     border: none;
     border-radius: 5px;
 }
+
+.super{
+    width: 200px;
+    height: 200px;
+    border: 10px dotted #FD6E0A;
+    background-image: url('images/pic-b.png');
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 450px 150px;
+    float: right;
+    margin-right: 20px;
+}
